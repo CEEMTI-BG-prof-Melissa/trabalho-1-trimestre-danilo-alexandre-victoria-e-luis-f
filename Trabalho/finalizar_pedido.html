@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title> Kirby Lanche </title>
+    </head>
+    <body>
+        <form action="pedido_feito.html" method="GET">
+            <input type="radio" id="pix" name="pagamento">
+            <label for="pix"> Pix </label>
+            <br><br>
+            <input type="radio" id="cartao" name="pagamento">
+            <label for="cartao"> Cartão </label>
+            <br><br>
+            <input type="radio" id="dinheiro" name="pagamento">
+            <label for="dinheiro"> Dinheiro </label>
+            <br>
+            <br>
+            <label for="cupom"> insira um cupom se tiver </label><br>
+            <input type="text" id="cupom" name="cupom"  placeholder="Insira um cupom">
+            <br><br>
+            <label for="endereço"> insira o endereço da entrega  </label><br>
+            <input type="text" id="endereço" name="endereço" placeholder="Informe seu endereço">
+            <br><br>
+            <input type="submit" value="Confirmar pedido">
+        </form>
+    </body>
+</html>    
